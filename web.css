@@ -8,6 +8,6 @@ h1 {
     color: black;
 }
 
-#jokes :hover {
+#jokes:hover {
     cursor: pointer;
 }
