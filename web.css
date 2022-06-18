@@ -2,6 +2,11 @@ button:hover {
     cursor: pointer;
 }
 
+#connectIcons {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 /* GLOBAL STYLES
  * Padding below the footer and lighter body text
 * -------------------------------------------------- */
