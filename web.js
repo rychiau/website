@@ -1,5 +1,5 @@
 const jokes = document.querySelector("#jokes");
-const button = document.querySelector("button");
+const jokeButton = document.getElementById("jokeButton");
 
 const addNewJoke = async () => {
     const jokeText = await getDadJoke();
@@ -18,4 +18,4 @@ const getDadJoke = async () => {
     }
 };
 
-button.addEventListener("click", addNewJoke);
+jokeButton.addEventListener("click", addNewJoke);
